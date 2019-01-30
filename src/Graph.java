@@ -1,20 +1,27 @@
 import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 import javax.swing.JOptionPane;
 
 public class Graph {
 
     public static void main(String[] args) {
-        int ve = Integer.parseInt(JOptionPane.showInputDialog("Enter no. of vertices"));
-        int e = Integer.parseInt(JOptionPane.showInputDialog("Enter no. of edges"));
+        String vertices = JOptionPane.showInputDialog("Enter no. of vertices");
+        String edges = JOptionPane.showInputDialog("Enter no. of edges");
+        StringTokenizer verticeTokenizer = new StringTokenizer(vertices,",");
+        int ve = verticeTokenizer.countTokens();
+        StringTokenizer edgeTokenizer = new StringTokenizer(edges,",");
+        int e = edgeTokenizer.countTokens();
         ArrayList<ArrayList<Integer>> graph = new ArrayList<ArrayList<Integer>>();
         int[][] matrix = new int[ve][ve];
         for (int i = 0; i < ve; i++) {
             graph.add(new ArrayList<Integer>());
         }
-        for (int i = 0; i < e; i++) {
-            int u = Integer.parseInt(JOptionPane.showInputDialog("Enter starting node"));
-            int v = Integer.parseInt(JOptionPane.showInputDialog("Enter terminating node"));
+        while(edgeTokenizer.hasMoreTokens()){
+            String token = edgeTokenizer.nextToken();
+            String[] node = token.split("-");
+            int u = Integer.parseInt(node[0]) - 1;
+            int v = Integer.parseInt(node[1]) - 1;
             if(matrix[u][v] == 1){
                 System.out.println("Edge already added");
                 continue;
@@ -22,8 +29,8 @@ public class Graph {
             else {
                 matrix[u][v] = 1;
                 matrix[v][u] = 1;
-                graph.get(u).add(v);
-                graph.get(v).add(u);
+                graph.get(u).add(v+1);
+                graph.get(v).add(u+1);
             }
             System.out.println("Edge added");
         }
@@ -36,7 +43,7 @@ public class Graph {
         }
         System.out.println("Printing Adjacency List");
         for (int i = 0; i < graph.size(); i++) {
-            System.out.print(i + "->");
+            System.out.print((i+1) + "->");
             for (Integer nodes : graph.get(i)) {
                 System.out.print(nodes + "->");
             }
