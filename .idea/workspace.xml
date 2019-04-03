@@ -12,7 +12,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lab6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +56,7 @@
         <option value="$PROJECT_DIR$/src/Lab5.java" />
         <option value="$PROJECT_DIR$/src/TVSP.java" />
         <option value="$PROJECT_DIR$/src/Temp.java" />
+        <option value="$PROJECT_DIR$/src/Lab6.java" />
       </list>
     </option>
   </component>
@@ -96,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TVSP">
+  <component name="RunManager" selected="Application.Lab6">
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -115,14 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph" />
-      <module name="Algorithms-Lab" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Lab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab4" />
       <module name="Algorithms-Lab" />
@@ -133,6 +139,14 @@
     </configuration>
     <configuration name="Lab5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab5" />
+      <module name="Algorithms-Lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab6" />
       <module name="Algorithms-Lab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -171,19 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Graph" />
       <item itemvalue="Application.Lab4" />
       <item itemvalue="Application.Lab5" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.TVSP" />
+      <item itemvalue="Application.Lab6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab6" />
         <item itemvalue="Application.TVSP" />
         <item itemvalue="Application.Lab5" />
         <item itemvalue="Application.Lab4" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -195,14 +209,14 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29036143" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28915662" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,10 +289,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Temp.java">
+    <entry file="file://$PROJECT_DIR$/src/Temp.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="690">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
